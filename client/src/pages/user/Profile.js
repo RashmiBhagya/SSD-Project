@@ -94,7 +94,7 @@ const Profile = () => {
                 </div>
                 <div className="mb-3">
                   <input
-                    type="text"
+                    type="number"
                     value={phone}
                     onChange={(e) => setPhone(e.target.value)}
                     className="form-control"
